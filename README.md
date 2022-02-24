@@ -3,25 +3,26 @@ Histogram equalization is used to enhance contrast. It is not necessary that con
 
 ## INPUT:
 
-clc ;
-clear;
-close;
-img= imread ('D:\back2.jpeg');
-img=rgb2gray(img);
-[count,cells ]= imhist (img);                          // compute histogram
-subplot(2,2,1);
-title('Original image');
-imshow(img); 
-subplot(2,2,2);
-plot2d3 ('gnn' , cells , count )
-title('Histogram plot for original image');
-Iheq = imhistequal(img);
-[count,cells ]= imhist (Iheq);                      // compute histogram equalization
-subplot(2,2,3);
-title('Histogram Equalized image');
-imshow(Iheq); 
-subplot(2,2,4);
-plot2d3 ('gnn' , cells , count )
+clc ;<br>
+clear;<br>
+close;<br>
+img= imread ('D:\back2.jpeg');<br>
+img=rgb2gray(img);<br>
+[count,cells ]= imhist (img);       <br>                   // compute histogram
+subplot(2,2,1);<br>
+title('Original image');<br>
+imshow(img); <br>
+subplot(2,2,2);<br>
+plot2d3 ('gnn' , cells , count )<br>
+title('Histogram plot for original image');<br>
+Iheq = imhistequal(img);<br>
+[count,cells ]= imhist (Iheq);         <br>             // compute histogram equalization
+subplot(2,2,3);<br>
+title('Histogram Equalized image');<br>
+imshow(Iheq); <br>
+subplot(2,2,4);<br>
+plot2d3 ('gnn' , cells , count )<br>
+<br>
 
 
 ## OUTPUT:
