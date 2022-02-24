@@ -22,7 +22,7 @@ title('Histogram Equalized image');<br>
 imshow(Iheq); <br>
 subplot(2,2,4);<br>
 plot2d3 ('gnn' , cells , count )<br>
-<br>
+<hr>
 
 
 ## OUTPUT:
