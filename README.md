@@ -1,7 +1,7 @@
 # Histogram-Equalization
 Histogram equalization is used to enhance contrast. It is not necessary that contrast will always be increase in this. There may be some cases were histogram equalization can be worse. In that cases the contrast is decreased.
 
-# OUTPUT:
+### OUTPUT:
 
 ![image](https://user-images.githubusercontent.com/70971734/155469866-56d8b9ff-f89a-4b90-a0e6-9a96d090ceed.png)
 
